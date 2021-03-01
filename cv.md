@@ -23,12 +23,12 @@ My main purpose in life is to develop useful and convenient products, focusing o
 
 ### My career
 
-+ Aesthetics of Sound ***| 2016-2020***  
++ Aesthetics of Sound ***2016-2020***  
 Project Manager / Technical specialist
 
-+ Web Developer Freelance ***| 2017-...***
++ Web Developer Freelance ***2017***
 
-+ TNT Rock Club ***| 2012 - 2016***  
++ TNT Rock Club ***2012-2016***  
 System Administrator / Technical Director
 
 
@@ -54,13 +54,13 @@ where I applied the latest neural network tools to find an averaged face of Bela
 
 ### Academic Profile & Courses
 
-+ BSUIR Branch Minsk Radioengineering College **| Electronic Computing Means | 2009-2011**
++ BSUIR Branch Minsk Radioengineering College - **Electronic Computing Means 2009-2011**
 
-+ Belarussian State Academy Of Arts **| Bachelor of Cinematography | 2011-2016**
++ Belarussian State Academy Of Arts - **Bachelor of Cinematography 2011-2016**
 
-+ Prinston University **Alghorytms | 2021**
-+ Brainscloud **Site layout. HTML/CSS Introduction | 2020**
-+ LEARN Digital Platform (EPAM) **Java Foundamentals, Computer Science | 2020**
++ Prinston University - **Alghorytms 2021**
++ Brainscloud - **Site layout. HTML/CSS Introduction 2020**
++ LEARN Digital Platform (EPAM) - **Java Foundamentals, Computer Science  2020**
 
 ### Languages
  - English **B2**
