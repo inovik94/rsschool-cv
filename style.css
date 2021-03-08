@@ -1,9 +1,176 @@
+* {
+  box-sizing: border-box;
+  transition: 0.35s ease;
+}
 html {
-  font-family: sans-serif;
+  font-family: "Open Sans";
+}
+
+a {
+  color: #000;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  border-bottom-color: rgba(15, 122, 252, 0.2);
+}
+
+p {
+  margin: 0 0;
+}
+p strong {
+  font-weight: 200;
+}
+
+h1,
+h2,
+h3 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+
+hr {
+  border: 0;
+  border-bottom: 1px dashed;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  text-decoration: none;
+  color: #cf0000;
+  border-bottom-color: rgba(208, 64, 0, 0.2);
+}
+
+code {
 }
 
 .main-block {
-  display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+.page-block {
+  max-width: 1200px;
+  border-top: #000;
+  margin: 30px auto;
+  background-color: #fff;
+  box-shadow: 6px 10px 28px 0px rgba(0, 0, 0, 0.4);
+}
+
+.page-wrapper {
+  width: 80%;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: ;
+  order: 1;
+}
+.main-info {
+  min-width: 0;
+  order: 2;
+  flex: 1;
+  margin: 250px 20px 0 -320px;
+}
+.left-aside {
+  order: 1;
+  margin: 2em;
+  max-width: 300px;
+}
+.header {
+  order: 2;
+  height: 300px;
+}
+
+.main-content div {
+}
+.wrapper {
+  background-color: rgba(204, 204, 204, 0.39);
+  margin: 30px;
+}
+.name {
+  display: block;
+}
+.specialisation {
+}
+
+.work-spec {
+  font-weight: normal;
+}
+
+.code-example {
+  overflow: auto;
+}
+
+.footer {
+  padding-bottom: 20px;
+}
+.rs-link {
+  margin-left: auto;
+  margin-right: auto;
+
+  width: 100px;
+}
+
+.list {
+  list-style: none;
+  padding-left: 0;
+}
+.list li {
+  position: relative;
+  padding: 20px 0 20px 15px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.list li:before {
+  position: absolute;
+  width: 7px;
+
+  height: 7px;
+  border-radius: 50%;
+  background: #4f5151;
+  content: "";
+  left: 0;
+  transition: 0.3s ease-in-out;
+  top: 27px;
+}
+.list li:after {
+  position: absolute;
+  border-left: 1px dotted #4f5151;
+  width: 1px;
+  bottom: -1px;
+  content: "";
+  left: 3px;
+  top: 48px;
+}
+.list li:hover:before {
+  box-shadow: 0 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.list li:last-child:after {
+  content: none;
+}
+
+@media (max-width: 950px) {
+  .main-content {
+    flex-direction: column;
+  }
+
+  .header {
+    order: -1;
+    margin: 2em;
+  }
+  .left-aside {
+    order: 2;
+  }
+  .main-info {
+    order: 3;
+    margin: 2em;
+    min-width: 300px;
+    max-width: 435px;
+    overflow: hidden;
+  }
 }
